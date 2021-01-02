@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar_logo {
+  img {
+    width: 100px;
+  }
+}
+.navbar_right {
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    border: 1px solid black;
+    border-radius: 23px;
+    height: 30px;
+    padding-top: 8px;
+  }
+
+  .theIcon {
+    border: 1px solid black;
+    border-radius: 23px;
+    height: 28px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+}
+
+.right {
+  border: 1px solid black;
+  border-radius: 23px;
+  height: 30px;
+  padding-top: 8px;
+}
+
+.navbar_center {
+  background-color: yellow;
+  width: 30%;
+  display: flex;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.vt {
+  border-left: 1px solid grey;
+  height: 50px;
+}
