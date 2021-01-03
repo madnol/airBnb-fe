@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.scss";
-import DrawerPhotoGrid from "../DrawerPhotoGrid";
+import "./PhotoGrid.scss";
+import AppsIcon from "@material-ui/icons/Apps";
 import {
   Container,
   Typography,
@@ -8,6 +8,7 @@ import {
   GridList,
   GridListTile,
   Grid,
+  Button,
 } from "@material-ui/core";
 
 const Photo_grid = () => {
@@ -15,7 +16,7 @@ const Photo_grid = () => {
 
   return (
     <div>
-      <Container maxWidth="lg" style={{ padding: "40px" }}>
+      <Container maxWidth="lg">
         <Grid container spacing={1}>
           <Grid item md={6}>
             <GridList cellHeight={392} cols={1}>
@@ -43,7 +44,9 @@ const Photo_grid = () => {
             </GridList>
           </Grid>
         </Grid>
-        <DrawerPhotoGrid />
+        <Button variant="outlined">
+          <AppsIcon /> Show all the photos
+        </Button>
       </Container>
     </div>
   );

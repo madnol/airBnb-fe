@@ -1,14 +1,12 @@
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "fontsource-roboto";
-import { Button, Icon } from "@material-ui/core";
+import DetailsPage from "./components/DetailsPage";
 
-import PhotoGrid from "./components/PhotoGrid";
 function App() {
   return (
     <div className="App">
-      <Button variant="contained" color="secondary">
-        This is our first button
-      </Button>
-      <PhotoGrid />
+      <DetailsPage />
     </div>
   );
 }
