@@ -1,0 +1,21 @@
+.color {
+  background-color: #f7f7f7;
+}
+.footer {
+  display: flex;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+}
+.footer_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_right {
+  display: flex;
+  .rightIcons {
+    margin-right: 80px;
+  }
+}
