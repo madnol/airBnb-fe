@@ -1,11 +1,14 @@
 import "fontsource-roboto";
-import { Button } from "@material-ui/core";
+import Navbar from "./NavbarComponent/Navbar";
+import Home from "./HomeComponent/Home";
+import Footer from "./FooterComponent/Footer";
+
 function App() {
   return (
     <div className="App">
-      <Button variant="contained" color="secondary">
-        This is our first button
-      </Button>
+      <Navbar />
+      {/* <Home /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
