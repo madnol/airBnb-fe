@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .navbar_logo {
   img {
@@ -9,24 +10,28 @@
 }
 .navbar_right {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
-  span {
-    border: 1px solid black;
-    border-radius: 23px;
-    height: 30px;
-    padding-top: 8px;
-  }
+  width: 200px;
+  height: 100%;
 
-  .theIcon {
+  .right_three {
+    display: flex;
     border: 1px solid black;
-    border-radius: 23px;
-    height: 28px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    border-radius: 30px;
+  }
+  .right_two {
+    .iconTwo {
+      height: 20px;
+    }
   }
 }
-
+.search {
+  border-radius: 30px;
+  background-color: #ff7779;
+  padding: 3px 3px 3px 3px;
+}
 .right {
   border: 1px solid black;
   border-radius: 23px;
@@ -35,14 +40,18 @@
 }
 
 .navbar_center {
-  background-color: yellow;
+  border: 1px solid lightgray;
+
+  height: 50px;
   width: 30%;
   display: flex;
-  border-radius: 30px;
+  border-radius: 50px;
   align-items: center;
-}
+  justify-content: space-around;
 
-.vt {
-  border-left: 1px solid grey;
-  height: 50px;
+  .vt {
+    border-left: 1px solid lightgray;
+    width: 10px;
+    height: 60%;
+  }
 }

@@ -15,23 +15,36 @@ function Navbar() {
             alt="airbnb logo"
           />
         </div>
+
         <div className="navbar_center">
-          <div className="options">
-            <span>Blabla</span>
-            <span className="vt"></span>
-            <span>Blabla</span>
-            <span className="vt"></span>
-            <span>Blabla</span>
+          <div className="center_one">
+            <p>Bormio</p>
+          </div>
+          <div className="vt"></div>
+          <div className="center_two">
+            <p>5 gen - 8 feb </p>
+          </div>
+          <div className="vt"></div>
+          <div className="center_three">
+            <p>Aggiungi i posti</p>
+          </div>
+          <div className="center_four">
+            <SearchIcon className="search" />
+          </div>
+        </div>
+
+        <div className="navbar_right">
+          <div className="right_one">
+            <p>Diventa Host</p>
           </div>
 
-          <SearchIcon className="search" />
-        </div>
-        <div className="navbar_right">
-          <span>Diventa host</span>
-          <LanguageIcon className="theIcon" />
-          <div className="right">
+          <div className="right_two">
+            <LanguageIcon className="iconTwo" />
+          </div>
+
+          <div className="right_three">
             <MenuIcon />
-            <AccountCircleIcon />
+            <AccountCircleIcon className="iconThree" />
           </div>
         </div>
       </div>
