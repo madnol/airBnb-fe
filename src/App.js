@@ -8,17 +8,14 @@ import Footer from "./FooterComponent/Footer";
 
 import DetailsPage from "./components/DetailsPage";
 
-
 function App() {
   return (
     <div className="App">
-
       <Navbar />
       {/* <Home /> */}
-      {/* <Footer /> */}
 
       <DetailsPage />
-
+      <Footer />
     </div>
   );
 }
