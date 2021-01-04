@@ -1,0 +1,19 @@
+.home_top {
+  display: flex;
+  justify-content: space-between;
+
+  .home_right {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    p {
+      border: 1px solid lightgray;
+      border-radius: 20px;
+      padding: 10px;
+    }
+  }
+  .home_left {
+    display: flex;
+    align-items: center;
+  }
+}
