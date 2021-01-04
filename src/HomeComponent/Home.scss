@@ -11,9 +11,70 @@
       border-radius: 20px;
       padding: 10px;
     }
+    p:hover {
+      border: 1px solid grey;
+      border-radius: 20px;
+      padding: 10px;
+      cursor: pointer;
+    }
   }
   .home_left {
     display: flex;
     align-items: center;
+    // padding: 0px;
+  }
+  .home_left:hover {
+    background-color: #f7f7f7;
+    border-radius: 40%;
+  }
+}
+.cards_container {
+  //   background-color: lightseagreen;
+  display: flex;
+  height: 100vh;
+  widows: 100vw;
+
+  .card {
+    // background-color: blue;
+    border-radius: 20px;
+    margin: 15px;
+    height: 400px;
+    width: 25%;
+    overflow: hidden;
+    .card_star {
+      color: red;
+    }
+    img {
+      height: 90%;
+      width: 100%;
+    }
+    .img {
+      position: relative;
+
+      .card_btn {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+      }
+      .card_heart {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+      }
+    }
+  }
+
+  .card_rate {
+    display: flex;
+    align-items: center;
+  }
+
+  .rare_find {
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border: 1px solid #f7f7f7;
+    border-radius: 10px;
   }
 }
