@@ -4,7 +4,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import MenuIcon from "@material-ui/icons/Menu";
 import LanguageIcon from "@material-ui/icons/Language";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
-
+import { Typography } from "@material-ui/core";
 function Navbar() {
   return (
     <div>
@@ -18,15 +18,15 @@ function Navbar() {
 
         <div className="navbar_center">
           <div className="center_one">
-            <p>Bormio</p>
+            <Typography variant="body1">Bormio</Typography>
           </div>
           <div className="vt"></div>
           <div className="center_two">
-            <p>5 gen - 8 feb </p>
+            <Typography variant="body1">5 gen - 8 feb </Typography>
           </div>
           <div className="vt"></div>
           <div className="center_three">
-            <p>Aggiungi i posti</p>
+            <Typography variant="body1">Aggiungi i posti</Typography>
           </div>
           <div className="center_four">
             <SearchIcon className="search" />
@@ -35,7 +35,7 @@ function Navbar() {
 
         <div className="navbar_right">
           <div className="right_one">
-            <p>Diventa Host</p>
+            <Typography variant="body1">Diventa Host</Typography>
           </div>
 
           <div className="right_two">

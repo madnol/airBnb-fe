@@ -12,10 +12,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+
       <Home />
+      <DetailsPage />
       <Footer />
 
-      {/* <DetailsPage /> */}
     </div>
   );
 }
