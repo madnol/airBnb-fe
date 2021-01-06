@@ -14,9 +14,8 @@ function App() {
       <Navbar />
 
       <Home />
-      <DetailsPage />
+      {/* <DetailsPage /> */}
       <Footer />
-
     </div>
   );
 }
